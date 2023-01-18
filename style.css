@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.cabeçalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 54px;
+  position: fixed;
+  z-index: 2;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+}
+.iconeinsta-mobile {
+  display: none;
+}
+.logoinsta-mobile {
+  display: none;
+}
+.logoinsta {
+  display: flex;
+  justify-content: center;
+  width: 139.81px;
+  height: 54px;
+  justify-content: space-between;
+  align-items: center;
+}
+.icone-insta {
+  font-size: 19.25px;
+}
+
+.pesquisa {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 215px;
+  height: 28px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+}
+.icones-cabeçalho {
+  display: flex;
+  justify-content: space-between;
+}
+.paper-plane {
+  font-size: 17.87px;
+  margin-right: 24.81px;
+}
+.compass {
+  font-size: 16.5px;
+  margin-right: 25.5px;
+}
+.heart {
+  font-size: 16.5px;
+  margin-right: 25.5px;
+}
+.person {
+  font-size: 16.5px;
+}
+
+.corpo-pagina {
+  width: 100%px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.storie-post {
+  display: flex;
+  flex-direction: column;
+  width: 614px;
+  height: auto;
+
+  margin-top: 54px;
+}
+.storie {
+  width: 614px;
+  height: 118px;
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+}
+.setinha {
+  font-size: 26px;
+  color: azure;
+  position: absolute;
+  right: 9px;
+}
+.imagens-storie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+}
+.imagem {
+  background-image: URL("borda-stories.png");
+  background-size: 66px;
+  width: 66px;
+  height: 66px;
+}
+.imagem img {
+  width: 56px;
+  margin: 5px;
+}
+.nomestorie {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #262626;
+  margin-top: 6px;
+}
+.post {
+  width: 614px;
+  height: auto;
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 46px;
+}
+.topo-post {
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+}
+.topo-post div {
+  margin-left: 17px;
+}
+
+.topo-post div:nth-child(3) {
+  text-align: end;
+  width: 100%;
+  padding-right: 18.5px;
+}
+.bottom-post {
+  width: 99.3%;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  margin-top: -10px;
+}
+.simbolos-fim-post {
+  display: flex;
+  margin-top: 12.06px;
+}
+.simbolos-fim-post div {
+  margin-left: 17px;
+}
+
+.simbolos-fim-post div:nth-child(4) {
+  text-align: end;
+  width: 100%;
+  margin-right: 17.62px;
+}
+
+.sidebar {
+  width: 293px;
+  height: auto;
+  margin-left: 29px;
+  margin-top: 54px;
+}
+
+.curtidas {
+  display: flex;
+  align-items: center;
+  margin-top: 12.06px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+.curtidas img {
+  font-family: "Roboto";
+  margin-right: 5px;
+}
+.curtidas span {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+}
+.perfil {
+  font-family: "Roboto";
+
+  display: flex;
+  height: 56px;
+  width: 100%;
+  margin-top: 57px;
+}
+.usuario span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.nomeusuario {
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-left: 17px;
+  margin-top: 10px;
+}
+
+.sugestao {
+  display: flex;
+  justify-content: space-between;
+}
+.texto1 {
+  font-family: "Roboto";
+  display: flex;
+  margin-top: 24px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.texto2 {
+  font-family: "Roboto";
+  margin-top: 24px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.instasugestao {
+  font-family: "Roboto";
+  display: flex;
+  margin-top: 16px;
+  width: 293px;
+  align-items: center;
+}
+.textosujestao {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+}
+.texto3 {
+  font-family: "Roboto";
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.texto4 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+.texto5 {
+  font-family: "Roboto";
+  color: #139ef2;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: right;
+  width: 200px;
+}
+.sobre1 {
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 42px;
+  color: #c7c7c7;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  margin-top: 33px;
+}
+.sobre2 {
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 14px;
+  color: #c7c7c7;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  margin-top: 18px;
+}
+.barra-inferior-mobile {
+  display: none;
+}
+
+@media (max-width: 935px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 614px) {
+  .sidebar {
+    display: none;
+  }
+  .setinha {
+    display: none;
+  }
+  .storie {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .compass,
+  .heart,
+  .person,
+  .pesquisa {
+    display: none;
+  }
+  .logoinsta {
+    display: none;
+  }
+  .logoinsta-mobile {
+    display: inline;
+  }
+  .iconeinsta-mobile {
+    display: inline;
+    margin-left: 21.37px;
+  }
+  .cabeçalho {
+    display: flex;
+    justify-content: space-between;
+  }
+  .barra-inferior-mobile {
+    margin-top: 54px;
+    width: 100%;
+    height: 54px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  .storie-post,
+  .storie,
+  .post {
+    width: 100%;
+  }
+  .post img {
+    width: 100%;
+  }
+  .curtidas img {
+    width: 20px;
+  }
+}
